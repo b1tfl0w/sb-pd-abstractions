@@ -1,0 +1,7 @@
+#N canvas 752 343 450 300 10;
+#X text 100 96 switch to automap;
+#X obj 102 143 midiout;
+#X obj 102 51 inlet;
+#X msg 102 120 240 0 32 41 3 3 18 0 4 0 1 1 247;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
