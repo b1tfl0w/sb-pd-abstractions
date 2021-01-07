@@ -10,6 +10,8 @@
 #X obj 34 112 f \$1;
 #X text 32 48 1 args to loadbang;
 #X text 66 112 1 for loadbang;
+#X text 257 264 created by sasha bon;
+#X text 257 274 masharoom gmail com;
 #X connect 2 0 1 0;
 #X connect 3 0 6 0;
 #X connect 5 0 1 0;
