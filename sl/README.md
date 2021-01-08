@@ -8,4 +8,6 @@ Connect the second output of the SL-MKII numbered 2 to the first pure data midi 
 
 Connect the first pure data midi output 1 to the SL-MKII input number 2:
 
+Then open slHelp.pd
+
 ![](midi-connections.jpg)
