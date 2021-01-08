@@ -8,4 +8,4 @@ Connect the second output of the SL-MKII numbered 2 with the first pure data mid
 
 Connect the first pure data midi output 1 to the SL-MKII input number 2:
 
-![alt tag](https://github.com/b1tfl0w/sb-pd-abstractions/tree/main/sl/midi-connections.jpg)
+![](midi-connections.jpg)
