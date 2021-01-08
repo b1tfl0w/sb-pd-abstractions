@@ -2,7 +2,7 @@
 
 Pure Data abstractions for controlling leds and LCD display of the Novation Zero-SL mkII controller
 
-Note: requires 'tof' library to be installed in externals.
+Note: requires 'tof' library (for ASCII to decimal conversion) to be installed in externals.
 
 Connect the second output of the SL-MKII numbered 2 with the first pure data midi 1
 
