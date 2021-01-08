@@ -2,9 +2,9 @@
 #X obj 193 296 pack f f;
 #X obj 193 259 + 120;
 #X obj 193 231 hradio 15 1 0 8 empty empty ring_num 0 -8 0 10 -262144
--1 -1 4;
-#X obj 307 316 vradio 15 1 0 5 empty empty modes 0 -8 0 10 -262144
 -1 -1 0;
+#X obj 307 316 vradio 15 1 0 5 empty empty modes 0 -8 0 10 -262144
+-1 -1 2;
 #X text 326 314 00h 0-11 Continuous Band (CW);
 #X text 326 330 10h 11-0 Continuous Band (ACW);
 #X text 326 346 20h L/R Centred Band;
@@ -29,10 +29,10 @@
 #X text 325 40 0 -> 7;
 #X text 559 40 0 -> 11;
 #X obj 711 228 vsl 15 128 0 11 0 0 empty empty ring 0 -9 0 10 -262144
--1 -1 2100 1;
+-1 -1 0 1;
 #X obj 543 231 hradio 15 1 0 8 empty empty ring_num 0 -8 0 10 -262144
--1 -1 5;
-#X msg 543 320 191 \$2 \$1;
+-1 -1 0;
+#X msg 543 350 191 \$2 \$1;
 #X floatatom 530 65 5 0 11 0 - - -;
 #X msg 193 320 191 \$2 \$1;
 #X text 435 40 0 -> 4;
@@ -46,6 +46,7 @@
 #X text 47 139 ctrl num 0-7;
 #X text 48 163 display mode 0-4;
 #X text 47 187 level 0-11;
+#X obj 533 323 t b;
 #X connect 0 0 31 0;
 #X connect 1 0 0 1;
 #X connect 2 0 1 0;
@@ -65,6 +66,7 @@
 #X connect 18 0 3 0;
 #X connect 22 0 30 0;
 #X connect 23 0 29 0;
+#X connect 23 0 43 0;
 #X connect 24 0 23 1;
 #X connect 27 0 23 0;
 #X connect 28 0 24 0;
@@ -79,3 +81,4 @@
 #X connect 38 0 37 0;
 #X connect 38 1 36 0;
 #X connect 38 2 35 0;
+#X connect 43 0 3 0;
